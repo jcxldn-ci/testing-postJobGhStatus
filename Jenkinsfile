@@ -2,8 +2,8 @@
 
 
 node {
-  postJob() {
-    //scmCloneStage()
+  postJobGhStatus() {
+    scmCloneStage()
     stage('No-op') {
       //sh 'ls'
       //sleep 20
