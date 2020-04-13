@@ -2,12 +2,12 @@
 
 
 node {
-  postJobGhStatus() {
+  postJob() {
     scmCloneStage()
     stage('No-op') {
-      //sh 'ls'
+      sh 'ls'
       //sleep 20
-      sh 'invalid'
+      //sh 'invalid'
     }
   }
 }
